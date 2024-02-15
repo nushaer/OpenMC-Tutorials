@@ -1,0 +1,51 @@
+########################################### Installing Anaconda ################################
+
+sudo apt-get update
+
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+	if wget is not installed, then install by running
+	apt-get install wget
+	
+bash Anaconda3-2022.05-Linux-x86_64.sh
+
+press ENTER 
+
+type yes or Y to prompt
+
+press ENTER to confirm location 
+	you can specify your own location here by following the prompts
+	
+conda config --set auto_activate_base False
+
+conda info 
+	(this check is for whether installation has been done accurately) 
+	
+	
+########################################### Installing openMC ##################################
+
+conda config --add channels conda-forge
+
+conda create -n openmc-env
+
+conda activate openmc-env
+
+conda install mamba
+
+mamba search openmc
+
+mamba install openmc
+
+######################################## Installing Jupyter Notebook and VS Code #################################
+
+open terminal
+
+conda activate openmc-env
+
+pip install notebook
+
+yes to all prompts
+
+sudo snap install --classic code 	
+	(or you can use the app store) 
+
+
