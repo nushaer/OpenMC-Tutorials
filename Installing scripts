@@ -20,6 +20,12 @@ conda config --set auto_activate_base False
 conda info 
 	(this check is for whether installation has been done accurately) 
 	
+
+(optional) Miniforge:
+
+curl -L -O https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+
+bash Miniforge3-Linux-x86_64.sh -b -p ~/miniforge
 	
 ########################################### Installing openMC ##################################
 
