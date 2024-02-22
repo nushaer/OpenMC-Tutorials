@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="natural uranium" temperature="900">
+    <density units="g/cc" value="10.96"/>
+    <nuclide ao="5.4e-05" name="U234"/>
+    <nuclide ao="0.007204" name="U235"/>
+    <nuclide ao="0.992742" name="U238"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material depletable="true" id="2" name="5% enriched uranium" temperature="900">
+    <density units="g/cc" value="10.96"/>
+    <nuclide ao="0.00045233054969570684" name="U234"/>
+    <nuclide ao="0.05060678291113408" name="U235"/>
+    <nuclide ao="0.9487090831661895" name="U238"/>
+    <nuclide ao="0.0002318033729806761" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material depletable="true" id="3" name="Mixed Oxide Fuel" temperature="900">
+    <density units="g/cm3" value="9.999999999999998"/>
+    <nuclide ao="0.002694293427488127" name="U235"/>
+    <nuclide ao="0.2513946987157842" name="U238"/>
+    <nuclide ao="0.0020142082852852893" name="Pu238"/>
+    <nuclide ao="0.0484410092329312" name="Pu239"/>
+    <nuclide ao="0.018843314044177772" name="Pu240"/>
+    <nuclide ao="0.005629472095899" name="Pu241"/>
+    <nuclide ao="0.005830418332645498" name="Pu242"/>
+    <nuclide ao="0.665152585865789" name="O16"/>
+  </material>
+  <material id="4" name="stainless steel 316L" temperature="900">
+    <density units="g/cm3" value="8.0"/>
+    <nuclide name="Fe54" wo="0.03726068426986525"/>
+    <nuclide name="Fe56" wo="0.6065500899451123"/>
+    <nuclide name="Fe57" wo="0.0142584328502526"/>
+    <nuclide name="Fe58" wo="0.0019307929347699884"/>
+    <nuclide name="Cr50" wo="0.007095267258621133"/>
+    <nuclide name="Cr52" wo="0.14228891599728805"/>
+    <nuclide name="Cr53" wo="0.016445097591747813"/>
+    <nuclide name="Cr54" wo="0.004170719152343044"/>
+    <nuclide name="Ni58" wo="0.08063724635590787"/>
+    <nuclide name="Ni60" wo="0.03213115547907547"/>
+    <nuclide name="Ni61" wo="0.0014200309023560522"/>
+    <nuclide name="Ni62" wo="0.004601786764184604"/>
+    <nuclide name="Ni64" wo="0.0012097804984760039"/>
+    <nuclide name="Mo92" wo="0.0028063782760789097"/>
+    <nuclide name="Mo94" wo="0.0017982636761260057"/>
+    <nuclide name="Mo95" wo="0.0031400928778060966"/>
+    <nuclide name="Mo96" wo="0.0033330672702721197"/>
+    <nuclide name="Mo97" wo="0.001935519101506087"/>
+    <nuclide name="Mo98" wo="0.00495747447126948"/>
+    <nuclide name="Mo100" wo="0.0020292043269413015"/>
+    <nuclide name="Mn55" wo="0.02"/>
+    <nuclide name="Si28" wo="0.009187351728283676"/>
+    <nuclide name="Si29" wo="0.0004831750292786396"/>
+    <nuclide name="Si30" wo="0.00032947324243768423"/>
+  </material>
+  <material id="5" name="Water" temperature="900">
+    <density units="g/cm3" value="0.76"/>
+    <nuclide ao="1.99968852" name="H1"/>
+    <nuclide ao="0.00031148" name="H2"/>
+    <nuclide ao="0.9976206" name="O16"/>
+    <nuclide ao="0.000379" name="O17"/>
+    <nuclide ao="0.0020004" name="O18"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material depletable="true" id="6" name="Depleted Uranium" temperature="900">
+    <density units="g/cc" value="10.96"/>
+    <nuclide ao="2.715639476600077e-05" name="U234"/>
+    <nuclide ao="0.003038259908592467" name="U235"/>
+    <nuclide ao="0.9969206670069354" name="U238"/>
+    <nuclide ao="1.3916689706208233e-05" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+</materials>
